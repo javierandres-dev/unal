@@ -8,6 +8,7 @@
 ## Directories :open_file_folder:
 * 0x00 Documents
 * 0x01 Exercises
+* 0x02 Challenges
 
 ## Software Developer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
