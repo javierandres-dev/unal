@@ -4,7 +4,11 @@ cuántas gallinas tiene el granjero? """
 
 
 def howMany(animals, legs):
-    legsRabbit = 4
-    legsHen = 2
+    rabbits = ''
+    hens = ''
 
-howMany(150, 140)
+    print('El granjero tiene ', rabbits, ' conejos y ', hens, ' gallinas')
+
+#howMany(150, 140)
+#howMany(50, 134)
+howMany(59, 172)
