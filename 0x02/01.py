@@ -43,9 +43,9 @@ usdInvestJuan = (usdInvestCarlos + usdInvestAndres) // 5
 print(usdInvestAndres, usdInvestCarlos, usdInvestJuan)
 if usdInvestJuan > 50:
     print('cuatro')
-elif usdInvestJuan > 31 and usdInvestJuan < 50:
+elif usdInvestJuan > 30 and usdInvestJuan <= 50:
     print('tres')
-elif usdInvestJuan > 21 and usdInvestJuan < 30:
+elif usdInvestJuan > 20 and usdInvestJuan <= 30:
     print('dos')
-elif usdInvestJuan < 20:
+elif usdInvestJuan > 0 and usdInvestJuan <= 20:
     print('uno')
