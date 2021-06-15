@@ -36,17 +36,16 @@ Más de 50 dolares / cuatro
 
 Nota: Tenga en cuenta que solo interesa el valor en dólares, sin contar
 centavos. """
-from math import ceil
+usdInvestCarlos = 4
 usdInvestAndres = int(input())
-usdInvestCarlos = 4 + (usdInvestAndres * 2)
-usdInvestJuan = ceil(usdInvestAndres / 5 * 3)
+usdInvestCarlos += 2 * usdInvestAndres
+usdInvestJuan = (usdInvestCarlos + usdInvestAndres) // 5
 print(usdInvestAndres, usdInvestCarlos, usdInvestJuan)
 if usdInvestJuan > 50:
-    category = 'cuatro'
-if usdInvestJuan > 30 and usdInvestJuan < 50:
-    category = 'tres'
-if usdInvestJuan > 20 and usdInvestJuan < 30:
-    category = 'dos'
-if usdInvestJuan < 20:
-    category = 'uno'
-print(category)
+    print('cuatro')
+elif usdInvestJuan > 31 and usdInvestJuan < 50:
+    print('tres')
+elif usdInvestJuan > 21 and usdInvestJuan < 30:
+    print('dos')
+elif usdInvestJuan < 20:
+    print('uno')
