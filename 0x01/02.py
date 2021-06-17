@@ -2,12 +2,25 @@
 Melquiades (https://www.youtube.com/watch?v=6iOlB0QLy84)
 - Una palabra al azar por cada grupo
 - Cambiar la letra "r" por la letra "l" """
+from random import randrange
 
 
 def compose_reggaeton():
-  group1 = ['mami', 'bebé', 'princess', 'mami']
-  group2 = ['yo quiero', 'yo puedo', 'yo vengo a', 'voy a']
-  group3 = ['encenderte', 'amarte', 'ligar', 'jugar']
-  group4 = ['suave', 'lento', 'rápido', 'fuerte']
-  group5 = ['hasta que salga el sol', 'toda la noche', 'hasta el amanecer', 'todo el día']
-  group6 = ['sin anestesia', 'sin compromiso', 'feis to feis', 'sin miedo']
+    groups = [
+        ['mami', 'bebé', 'princess', 'mami'],
+        ['yo quiero', 'yo puedo', 'yo vengo a', 'voy a'],
+        ['encenderte', 'amarte', 'ligar', 'jugar'],
+        ['suave', 'lento', 'rápido', 'fuerte'],
+        ['hasta que salga el sol', 'toda la noche',
+            'hasta el amanecer', 'todo el día'],
+        ['sin anestesia', 'sin compromiso', 'feis to feis', 'sin miedo']
+    ]
+    lyric = ''
+    for group in groups:
+        idx = randrange(0, len(group))
+        lyric += group[idx] + ' '
+    lyric = lyric.replace('r', 'l')
+    print(lyric)
+
+
+compose_reggaeton()
