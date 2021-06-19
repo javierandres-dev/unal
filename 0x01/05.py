@@ -8,7 +8,7 @@ def get_amount(N, M, K):
     roosters = M * 7
     chicks = K * 1
     total = chickens + roosters + chicks
-    print('Total de carne: {} kilos'.format(total))
+    print('Total de carne de aves: {} kilos'.format(total))
 
 
 get_amount(1, 1, 1)
