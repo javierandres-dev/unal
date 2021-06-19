@@ -19,6 +19,36 @@ Una lista de caracteres (A, M o N) indicando quién va ganando la apuesta
 después de leer cada canción del albúm. """
 
 
+def winner(arturo, mario, album):
+    res = ''
+    rounds_A = 0
+    rounds_M = 0
+    for song in album:
+        round_A = 0
+        round_M = 0
+        round_N = 0
+        if song in arturo:
+            round_A = 1
+            rounds_A += 1
+        if song in mario:
+            round_M = 1
+            rounds_M += 1
+        if round_A == 0 and round_M == 0:
+            round_N += 1
+        if rounds_A > rounds_M:
+            res += 'A'
+        elif rounds_M > rounds_A:
+            res += 'M'
+        else:
+            res += 'N'
+    print(res)
+
+
+winner('PSJFT', 'BKPAS', 'ZGCFCETLNVESQCTK')  # NNNAAAAAAAAAAAAA
+winner('SRNMAO', 'XJGLAQ', 'SHKBVOHILFBPMXSMLKSTN')  # AAAAAAAAAAAAAAAAAAAAA
+winner('CUH', 'MSZ', 'ERIMINSNCBNHHCU')  # NNNMMMMMMMMNAAA
+
+
 def win(arturo, mario, album):
     res = ''
     rounds_A = 0
