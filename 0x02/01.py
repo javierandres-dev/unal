@@ -29,10 +29,10 @@ precio se desploma.
 La mamá de Juan está preocupada, así que lo contrata a usted para que diseñe un algoritmo que, dada la cantidad de dólares invertidos por Andrés, calcule en qué categoría de inversión se encuentra su hijo.
 
 Dinero invertido / Categoría de inversión
-Entre 0 y 20 dólares / uno
-Entre 21 y 30 dólares / dos
-Entre 31 y 50 dólares / tres
-Más de 50 dolares / cuatro
+- Entre 0 y 20 dólares / uno
+- Entre 21 y 30 dólares / dos
+- Entre 31 y 50 dólares / tres
+- Más de 50 dolares / cuatro
 
 Nota: Tenga en cuenta que solo interesa el valor en dólares, sin contar
 centavos. """
