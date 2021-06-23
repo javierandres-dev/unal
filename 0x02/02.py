@@ -10,13 +10,11 @@ amigos te piden el favor de crear un programa que lea cada canción del albúm y
 les diga quién va ganando la apuesta. Si Arturo (A), Mario (M) o nadie (N).
 Nota: Una misma canción puede aparecer dos veces en el álbum, y debe sumar
 puntos.
-- Entrada
-La entrada consta de tres listas, la primera línea son las predicciones de
-Arturo, la segunda las de Mario y la tercera es el listado de las canciones que
-salieron en el álbum.
-- Salida
-Una lista de caracteres (A, M o N) indicando quién va ganando la apuesta
-después de leer cada canción del albúm. """
+- Entrada: La entrada consta de tres listas, la primera línea son las
+predicciones de Arturo, la segunda las de Mario y la tercera es el listado de
+las canciones que salieron en el álbum.
+- Salida: Una lista de caracteres (A, M o N) indicando quién va ganando la
+apuesta después de leer cada canción del albúm. """
 
 
 def win(arturo, mario, album):
