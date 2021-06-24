@@ -1,7 +1,7 @@
 """ Recibir un tablero de triqui y determinar si existe un ganador o no """
 
 
-def checkRows(matrix):
+def checkRows(matrix):  # ─
     for row in matrix:
         winner = True
         first_item = row[0]
@@ -15,7 +15,7 @@ def checkRows(matrix):
     return False
 
 
-def checkColumns(matrix):
+def checkColumns(matrix):  # |
     for column in range(0, 3):
         winner = True
         for item in range(0, 3):
@@ -63,9 +63,9 @@ def checkSecondDiagonal(matrix):  # /
 
 def checkBoard(matrix):
     if checkRows(matrix):
-        print('Si, existe un ganador - línea horizontal')
+        print('Si, existe un ganador - línea horizontal ─')
     elif checkColumns(matrix):
-        print('Si, existe un ganador - línea vertical')
+        print('Si, existe un ganador - línea vertical |')
     elif checkFirstDiagonal(matrix):
         print('Si, existe un ganador - línea diagonal \\')
     elif checkSecondDiagonal(matrix):
