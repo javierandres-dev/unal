@@ -2,3 +2,10 @@
 país B de 18.9 millones. Las tasas de crecimiento anual de la población serán
 de 2% y 3% respectivamente. Desarrollar un algoritmo para informar en que año
 la población del país B superará a la de A. """
+
+
+def printYear(population_a, population_b):
+    print(population_a, population_b)
+
+
+printYear(25, 18.9)
