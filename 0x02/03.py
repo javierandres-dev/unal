@@ -41,7 +41,6 @@ def order_history(input):
 
 order_history('arroz arroz res cerdo cerdo cerdo pollo')
 # arroz res cerdo pollo 2 1 3 1
-
 order_history('pollo pollo pollo pasta res sancocho sancocho sancocho arroz arroz arroz arroz res res res res mojarra mojarra mojarra res res ajiaco')
 # pollo pasta res sancocho arroz res mojarra res ajiaco 3 1 1 3 4 4 3 2 1
 order_history('mojarra fruta mojarra sancocho sancocho fruta')
