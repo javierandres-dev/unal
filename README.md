@@ -5,8 +5,7 @@
 * [Universidad Nacional de Colombia](https://unal.edu.co/)
 
 ## Directories
-:open_file_folder:
-* CicloI-2021
+* :open_file_folder: CicloI-2021
 
 ## Software Developer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
