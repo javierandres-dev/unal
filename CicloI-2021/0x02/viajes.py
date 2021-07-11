@@ -41,11 +41,38 @@ Requerimientos técnicos:
 - Todas las funciones deben estar en una librería llamada viajes.py
 - Este reto no tiene inputs de entrada ni prints de salida, ya que se evalúa
 que las funciones retornen el valor indicado. """
-continents = ('europa', 'américa', 'oceanía', 'áfrica', 'asia')
 
 
-def continentes():
-    print(continents[0])
+def continentes(countries):
+    known = []
+    for el in countries:
+        if el not in known:
+            known.append(el)
+    return known
 
 
-continentes()
+def consultar(countries, continents, continent):
+    visited = []
+    for el in countries:
+        if continents[el] == continent:
+            visited.append(el)
+    return visited
+
+
+def comprar(offered, visited):
+    not_visited = []
+    for el in offered:
+        try:
+            visited.index(el)
+        except ValueError:
+            not_visited.append(el)
+    return not_visited
+
+
+def intercambiar(a, b):
+    r1 = comprar(a, b)
+    r2 = comprar(b, a)
+    if len(r1) < len(r2):
+        return len(r1)
+    else:
+        return len(r2)
