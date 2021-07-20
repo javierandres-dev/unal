@@ -7,6 +7,9 @@
   - arleserp/MinTIC2022
 * http://repl.it/
 
+## Stack
+* Python
+
 ## Directories
 * :open_file_folder: 0x00 Documents
 * :open_file_folder: 0x01 Exercises
