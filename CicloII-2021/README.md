@@ -2,6 +2,7 @@
 ## UNAL :copyright:
 ### Resources
 * [UNAL - Aula Virtual](https://ingenieria.unal.edu.co/ciclo2-misiontic2022/login/index.php)
+* [Recursos técnicos de Oracle](https://www.oracle.com/technetwork/es/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html)
 * [Java SE Development Kit 8 Downloads](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
 * [Apache NetBeans Releases](https://netbeans.apache.org/download/index.html)
 
