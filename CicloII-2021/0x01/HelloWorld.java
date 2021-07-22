@@ -1,5 +1,6 @@
-package com.mycompany.hello.world;
-
+/**
+ * HelloWorld
+ */
 public class HelloWorld {
 
     public static void main(String[] args) {
