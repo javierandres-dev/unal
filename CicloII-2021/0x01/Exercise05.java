@@ -8,6 +8,14 @@ import java.util.Scanner;
  */
 public class Exercise05 {
   public static void main(String[] args) {
-
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Ingrese número de días a partir de hoy: ");
+    int nDays = sc.nextInt();
+    System.out.print("Ingrese número de contagiados actuales: ");
+    int currentInfected = sc.nextInt();
+    sc.close();
+    int totalInfected = (2 * currentInfected) * nDays;
+    System.out.print("El número total de personas contagiadas cuando hayan ");
+    System.out.print("transcurrido " + nDays + " días será de " + totalInfected);
   }
 }
