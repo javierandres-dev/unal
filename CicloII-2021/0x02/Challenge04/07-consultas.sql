@@ -1,0 +1,10 @@
+SELECT "Consulta 1";
+SELECT producto, fecha FROM inventario ORDER BY fecha DESC;
+SELECT "Consulta 2";
+SELECT producto FROM inventario WHERE fecha > "2010-12-31";
+SELECT "Consulta 3";
+SELECT responsable FROM inventario WHERE inventario.producto = "Higado";
+SELECT "Consulta 4";
+SELECT distinct responsable, count(nombre) FROM inventario GROUP BY responsable ORDER BY responsable ASC;
+SELECT "Consulta 5";
+SELECT sum(cantidad) FROM carnes;

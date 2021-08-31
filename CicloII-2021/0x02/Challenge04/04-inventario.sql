@@ -1,0 +1,1 @@
+CREATE TABLE inventario(id INT NOT NULL PRIMARY KEY, nombre VARCHAR(20) NOT NULL, fecha date NOT NULL, producto VARCHAR(80) NOT NULL, responsable VARCHAR(20) NOT NULL);

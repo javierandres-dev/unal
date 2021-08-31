@@ -1,0 +1,1 @@
+CREATE TABLE responsables(id INT NOT NULL PRIMARY KEY, username VARCHAR(20) NOT NULL unique, nombre VARCHAR(40) NOT NULL);
